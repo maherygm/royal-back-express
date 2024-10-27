@@ -1,7 +1,7 @@
 const stripe = require("stripe")(process.env.STRIPE_SECRET);
 const Order = require("../models/Order");
 const Evenement = require("../models/Evenement");
-const YOUR_DOMAIN = "http://localhost:5173/";
+const YOUR_DOMAIN = "http://localhost:3000/";
 
 // Hello endpoint
 exports.hello = (req, res) => {
